@@ -8,6 +8,6 @@ var canvas=document.getElementById("canvas");
     x: 0,
     y: 0
   };
-  img.onload = function(){
+  
    context.drawImage(img,x,y);
-  };
+ 
