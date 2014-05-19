@@ -1,6 +1,6 @@
 
 var canvas=document.getElementById("canvas");
-if(canvas.getContext){
+
 	context=canvas.getContext("2d");
 	 var img = new Image();   // Create new img element
   img.src = 'warrior.png'; // Set source path
@@ -11,7 +11,3 @@ if(canvas.getContext){
   img.onload = function(){
    context.drawImage(img,x,y);
   };
-} else {
- alert("A0-0007: Canvas Unsupported");
-}
-
